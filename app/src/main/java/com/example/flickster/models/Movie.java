@@ -27,6 +27,7 @@ public class Movie {
         return movies;
     }
 
+    // returns the name and pictures of the movie
     public String getPosterPath() {
         return String.format(" https://image.tmdb.org/t/p/w342", posterPath);
     }
